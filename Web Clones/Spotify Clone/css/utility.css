@@ -1,0 +1,104 @@
+
+.border {
+    border: 2px solid red;
+}
+
+.margin {
+    margin: 5px;
+}
+.bg-test{
+    background-color: rgb(42, 37, 37);
+}
+
+/* Above code is for testing only it should be temparary apply */
+/* sizing and border */
+
+.m-7 {
+    margin: 7px;
+}
+
+.padding {
+    padding: 18px;
+}
+.noborder{
+    border: none;
+}
+
+/* background and colors */
+.bg-radius {
+    border-radius: 10px;
+}
+
+.bg-black {
+    background-color: black;
+    color: white;
+}
+
+.grey {
+    color: rgb(167, 167, 167);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.bg-black2 {
+    background-color: #0b0b0b;
+}
+
+/* display related properties */
+
+.flex {
+    display: flex;
+}
+
+.gap {
+    gap: 20px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center {
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+/* other properties */
+
+.invert {
+    filter: invert(1);
+}
+
+.logosetter {
+    filter: invert(1);
+    width: 25px;
+}
+.buttons{
+    /* padding: 16px 32px; */
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #000; /* Background color of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #333; /* Color of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

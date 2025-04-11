@@ -1,0 +1,506 @@
+/* You are giving test in header hero a margin */
+/* You should use 3 media queries for the three types of screen */
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 95vh;
+    width: 100%;
+}
+
+.opacity {
+    position: absolute;
+    height: inherit;
+    width: inherit;
+    background-color: black;
+    opacity: 69%;
+}
+
+nav {
+    width: 100vw;
+    position: relative;
+    top: 10px;
+}
+
+.navcontainer {
+    margin: auto 70px auto 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 40px;
+}
+
+.nav_btnscontainer {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    margin: 11px;
+    background-color: red;
+    padding: 6px 13px;
+    border: none;
+    border-radius: 6px;
+}
+
+.lang_btn {
+    padding: 5px 25px;
+    background-color: black;
+    border: 1px solid #ffffff54;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.signbtn {
+    font-weight: bolder;
+    color: white;
+}
+
+/* Following code for hero */
+
+.hero {
+    margin: 30vh auto;
+    max-width: 70vw;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.hero :nth-child(1) {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.hero :nth-child(2) {
+    margin-top: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hero :nth-child(3) p {
+    margin-top: 16px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.gtstrt_btn {
+    padding: 10px 25px;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+
+.email_entry {
+    padding: 10px 15px;
+    font-size: smaller;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ffffff54;
+    background-color: black;
+    color: red;
+    position: relative;
+    left: 0px;
+    top: 17px;
+}
+
+.email_entry::placeholder {
+    color: rgba(255, 255, 255, 0);
+    font-size: 15px;
+    font-weight: 600;
+    position: inherit;
+    top: 7px;
+}
+
+.separator {
+    width: 100%;
+    height: 9px;
+    background-color: rgb(35, 35, 35);
+}
+
+.cards {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textbhai {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textbhai span {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.textbhai {
+    font-size: 1.5rem;
+}
+
+.tvbox {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.tvframe {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+.tvvideo {
+    height: 100%;
+    width: 80%;
+    position: absolute;
+}
+
+.moblineimg_holder {
+    height: 100%;
+}
+
+.moblineimg_holder img {
+    height: 100%;
+}
+
+.dwnld-simulation {
+    width: 50%;
+    padding: 8px 10px;
+    height: 20%;
+    left: 50%;
+    bottom: 8%;
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    transform: translateX(-50%);
+    width: 316px;
+    border: 1px solid rgb(241, 221, 221);
+    border-radius: 6px;
+    z-index: 10;
+}
+
+.dwnld-simulation img {
+    /* margin: 20px; */
+    height: 100%;
+    object-fit: contain;
+    object-position: left;
+}
+
+.dwn_gif_container {
+    height: 100%;
+}
+
+.tvvideo3 {
+    top: -15%;
+    width: 55%;
+}
+
+.card4_img {
+    height: 100%;
+}
+
+.faq_container {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.faq_title {
+    margin: 30px;
+    padding: 10px;
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.ques {
+    padding: 23px;
+    margin: 5px;
+    /* height: 83px; */
+    width: 77vw;
+    border: none;
+    color: white;
+    background-color: rgba(66, 65, 65, 0.678);
+    font-size: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.enroll_instruction {
+    margin-top: 16px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.email_entry2 {
+    height: 53px;
+    width: 350px;
+    padding: 10px 15px;
+    font-size: smaller;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #ffffff54;
+    background-color: black;
+    color: red;
+    position: relative;
+    left: 0px;
+    top: 17px;
+}
+
+.last_btn {
+    padding-bottom: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.flex_column {
+    margin: 65px;
+    width: 80vw;
+    color: rgba(251, 250, 250, 0.684);
+    display: flex;
+    flex-direction: column;
+}
+
+.columns_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 160px;
+}
+
+.customer_care {
+    color: rgba(251, 250, 250, 0.684);
+    width: inherit;
+    background-color: black;
+}
+
+.customer_care a {
+    margin: 5px;
+    color: rgba(251, 250, 250, 0.684);
+}
+
+.columns {
+    color: white;
+    margin: 40px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    gap: 15px;
+
+}
+
+.columns a {
+    font-size: 14px;
+    color: rgba(251, 250, 250, 0.684);
+}
+
+.lang_btn2 {
+    margin: 0px;
+    margin-bottom: 25px;
+}
+
+
+/* media queries here */
+
+@media only screen and (max-width: 960px) {
+    .hero {
+        margin-top: 10vh;
+        color: white;
+    }
+
+    .hero :nth-child(1) {
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+
+    .hero :nth-child(2) {
+        margin-top: 16px;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+
+    .hero :nth-child(3) p {
+        margin-top: 16px;
+        font-size: .75rem;
+        font-weight: 400;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .navcontainer {
+        margin: auto 30px;
+    }
+
+    #logo {
+        height: 25px;
+    }
+
+    .hero {
+        margin: 15vh auto;
+    }
+
+    .textbhai span {
+        font-size: 2rem;
+    }
+
+    .textbhai p {
+        font-size: 1.1rem;
+    }
+
+    .tvvideo {
+        width: 90%;
+    }
+
+    .tvvideo3 {
+        width: 60%;
+    }
+
+    .moblineimg_holder {
+        height: auto;
+        width: 100%;
+    }
+
+    .moblineimg_holder img {
+        width: 100%;
+    }
+
+    .dwnld-simulation {
+        height: 10%;
+        bottom: 25%;
+    }
+
+    .card4_img {
+        width: 100%;
+    }
+
+    .ques {
+        padding: 15px;
+        font-size: 24px;
+    }
+    .columns_wrapper{
+        gap: 80px;
+    }
+
+}
+
+@media only screen and (max-width:670px) {
+    .cards {
+        height: 100vh;
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textbhai {
+        width: 60%;
+    }
+
+    .tvbox {
+        width: 100%;
+        height: 65%;
+    }
+
+}
+
+@media only screen and (max-width:550px) {
+    header {
+        height: 90vh;
+    }
+
+    .opacity {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 404px) {
+    .btns {
+        margin: 5px;
+        padding: auto;
+    }
+
+    .lang_btn {
+        width: 60px;
+    }
+
+    .email_entry {
+        position: static;
+        width: 80%;
+    }
+
+    .gtstrt_btn {
+        margin-top: 5px;
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 308px) {
+    .navcontainer {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 220px) {
+    * {
+        overflow: hidden;
+    }
+
+    .navcontainer {
+        margin: auto;
+    }
+
+    .nav_btnscontainer {
+        flex-direction: column;
+    }
+}
+
+/* meida queries for height */
+@media only screen and (max-height:500px) {
+    header {
+        height: 120vh;
+    }
+}

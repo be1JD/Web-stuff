@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone By JD</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="main bg-black flex">
+        <div class="left flex align-center justify-center">
+            <div class="close">
+            </div>
+            <div class="home bg-grey padding bg-radius">
+                <div class="logo_container flex justify-between">
+                    <img width="110" class="invert" src="Assets/logo.svg" alt="Logo">
+                    <img class="close_btn logosetter" src="Assets/close.svg" alt="">
+                </div>
+                <ul>
+                    <li class="flex align-center gap"><img class="logosetter flex" src="Assets/home.svg" alt="Home">Home
+                    </li>
+                    <li class="flex align-center gap"><img class="logosetter flex" src="Assets/search.svg"
+                            alt="Library">Search
+                    </li>
+                </ul>
+            </div>
+            <div class="bg-grey library padding bg-radius">
+                <div class="library_nav flex gap align-center ">
+                    <img class="logosetter" src="Assets/library.svg" alt="Library">
+                    Your Library
+                    <img class="invert plussign" src="Assets/plussign.svg" alt="">
+                </div>
+                <div class="songlist_container">
+                    <div class="songlist">
+                        <ul></ul>
+                    </div>
+                </div>
+                <div class="footer flex">
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <!-- <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Privacy Center</span></a></div> -->
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-grey right bg-radius">
+            <div class="header flex align-center  justify-between">
+                <div class="arrowcontainer flex">
+                    <img class="hamburger logosetter" width="40" src="Assets/hamburger.svg" alt="">
+                    <button class="arrows bg-black2 flex justify-center align-center">
+                        <img class="logosetter" src="Assets/leftarrow.svg" alt="">
+                    </button>
+                    <button class="arrows bg-black2 flex justify-center align-center">
+                        <img class="logosetter" src="Assets/rightarrow.svg" alt="">
+                    </button>
+                </div>
+                <div class="button_container">
+                    <button class="sign_btn buttons grey bg-grey noborder">Sign Up</button>
+                    <button class="log_btn buttons noborder">Log In</button>
+                </div>
+            </div>
+            <div class="playlists">
+                <div class="playlist_head flex justify-between">
+                    <h2>Spotify Playlists</h2>
+                    <div class="grey showall_btn">show all</div>
+                </div>
+                <div class="cards_container flex align-center">
+                    <!-- Following card is for example and troubleshooting -->
+                    <!-- <div data-folder="ncs" class="cards card1"> -->
+                    <!-- <div class="play_btn"> -->
+                    <!-- <img src="Assets/playbutton.svg" width="25px" height="25px" alt=""> -->
+                    <!-- </div> -->
+                    <!-- <img src="Assets/Card-1.jpeg" alt="No image"> -->
+                    <!-- <h4>New Music Friday</h4> -->
+                    <!-- <p class="grey">The very best in new music from around th...</p> -->
+                    <!-- </div> -->
+                </div>
+                <div class="playbar">
+                    <div class="abovebar">
+                        <div class="songinfo flex justify-center align-center"></div>
+                        <div class="songbuttons flex justify-center">
+                            <!-- <img src="https://cdn.hugeicons.com/icons/previous-solid-sharp.svg" alt="previous" width="28" height="28"> -->
+                            <img id="previous" class="invert" src="Assets/previoussong.svg" alt="previous" width="35"
+                                height="28">
+                            <img id="play" class="invert" src="Assets/playbutton.svg" width="35" alt="">
+                            <!-- <img src="https://cdn.hugeicons.com/icons/next-solid-sharp.svg" alt="next" width="28" height="28"> -->
+                            <img id="next" class="invert" src="Assets/nextsong.svg" alt="next" width="35" height="28">
+                        </div>
+                        <div class="timevol flex align-center">
+                            <div class="songtime flex justify-center align-center"></div>
+                            <div class="volume flex align-center justify-center">
+                                <img class="logosetter" src="Assets/volume.svg" alt="">
+                                <div class="range flex align-center"><input type="range" name="volume" id=""></div>
+                            </div>
+                        </div>
+                        <div class="seekbar">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <!-- <script src="js/testjs.js"></script> -->
+</body>
+
+</html>
